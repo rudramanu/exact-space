@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+    <title>JSON Input Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="json-input">
+        <h2>Enter JSON:</h2>
+        <textarea id="json-input" rows="10" cols="40"></textarea>
+        <button id="submit-button">Submit</button>
+      </div>
+      <div class="json-display">
+        <h2>JSON Form:</h2>
+        <div id="json-form-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="script.js"></script>

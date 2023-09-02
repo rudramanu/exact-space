@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: teal;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.json-input,
+.json-display {
+  flex: 1;
+  padding: 40px;
+}
+
+.json-input {
+  background-color: #a2f563;
+  border-right: 4px solid #ff7b7b;
+}
+
+.json-display {
+  background-color: #e3f7ff;
+}
+
+button {
+  margin-top: 30px;
+  padding: 14px 28px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5eff00;
+  color: black;
+}
